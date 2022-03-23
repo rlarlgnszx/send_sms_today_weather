@@ -14,11 +14,15 @@
   <div></div>
  </ul>
   <ul>
- <div>-> <h2>2단계 : 파이썬 문자 자동으로 보내는 MODULE 선택 :</h2><div>
+ <div>-> <h2>2단계 : 파이썬 문자 자동으로 보내는 MODULE 선택 :</h2></div>
  <li>-> twilio 선택했다. 다른 것들은 비용이 더 들어서,,,,거지........(무료는 자기핸드폰만 이용가능)</li>
  <li>-> pip3 install twilio</li>
  <li>-> 그후에 twilio 가입후 auth_token과 account_sid 가져옴</li>
  <li> -> 코드 작성후 네이버에서 크롤링한 Json파일 나한테 보내기 => 실패 -> 첫번째 키만 가져옴</li>
  <li>-> Json파일 String으로 변환후 원하는 방식으로 보내기</li>
-      EX) 
+      EX) https://user-images.githubusercontent.com/40743105/159710416-7a025098-dfc7-404b-b8b4-fb0cef716dac.png
+  <div>이렇게 오는것 예시</div>
 </ul>
+  <ul><div>-> <h2>3단계 : 문자보내고 파일을 서버에 올리고 서버시간판단으로 파일실행시키기 :</h2></div>
+   <li>
+   
