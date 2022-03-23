@@ -1,8 +1,8 @@
 # send_sms_today_weather
 파이썬 : twilio &amp; Linux_Server : crontab 을 이용한 나한테 문자로 하루하루 날씨 아침마다 알려주기!
 
-<ul>1.설계
- <div>-> 1단계 파이썬으로 네이버날씨 혹은 기상청 크롤링</div>
+<ul><h1>1.설계</h1>
+ <div>-> <h2>1단계 파이썬으로 네이버날씨 혹은 기상청 크롤링<h2></div>
     <li>현재온도 : </li>
     <li>*강수확률 :</li>
     <li>*바람 :</li>
@@ -13,7 +13,7 @@
     네이버를 크롤링해서 7가지만 json파일로 만들어줌 
   <div></div>
  </ul>
- <div>-> 2단계 : 파이썬 문자 자동으로 보내는 MODULE 선택 :<div>
+ <div>-> <h2>2단계 : 파이썬 문자 자동으로 보내는 MODULE 선택 :<h2><div>
  <li>-> twilio 선택했다. 다른 것들은 비용이 더 들어서,,,,거지........(무료는 자기핸드폰만 이용가능)</li>
  <li>-> pip3 install twilio</li>
  <li>-> 그후에 twilio 가입후 auth_token과 account_sid 가져옴</li>
