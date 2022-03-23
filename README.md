@@ -20,7 +20,8 @@
  <li>-> 그후에 twilio 가입후 auth_token과 account_sid 가져옴</li>
  <li> -> 코드 작성후 네이버에서 크롤링한 Json파일 나한테 보내기 => 실패 -> 첫번째 키만 가져옴</li>
  <li>-> Json파일 String으로 변환후 원하는 방식으로 보내기</li>
-      EX) https://user-images.githubusercontent.com/40743105/159710416-7a025098-dfc7-404b-b8b4-fb0cef716dac.png
+      EX)<src=https://user-images.githubusercontent.com/40743105/159710416-7a025098-dfc7-404b-b8b4-fb0cef716dac.png 
+              width=5rem height=8rem>
   <div>이렇게 오는것 예시</div>
 </ul>
   <ul><div>-> <h2>3단계 : 문자보내고 파일을 서버에 올리고 서버시간판단으로 파일실행시키기 :</h2></div>
